@@ -10,6 +10,7 @@ Remote sensing data has become much more accessible in the past couple of decade
 ### Methods
 #### Data
 This project is a case study in building a classification model with satellite imagery data to detect algae in the ocean off the coast of Florida where there are reliably seasonal algal blooms of K. brevis, also known as red tide, a toxic and costly occurance.  A dataset was obtained from NOAA (https://habsos.noaa.gov/) which includes the geographical coordinates, dates and counts of K. brevis from ~17,000 ocean samples during 2016 and 2017.
+![HABs Plotted off the coast of Florida](./plot_of_blooms.png)
 #### Feature Creation
 To the data was added the feature of a small geometry centered at each geographical point, from which to sample pixels from a satellite image with dates corresponding. For each unique date in the data, there should also be a unique satellite image composite (google earth engine ImageCollection) from which to sample pixels to use as features in a classification model. Latitude and Longitude from the original dataset were used to create columns of Google Earth Engine (GEE) shape and point objects to add compatibility with GEE built-in methods.
 

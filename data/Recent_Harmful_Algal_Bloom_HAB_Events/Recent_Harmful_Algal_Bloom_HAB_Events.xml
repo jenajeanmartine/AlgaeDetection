@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20180703</pubdate>
+                <title>Recent HAB Events</title>
+                <geoform>vector digital data</geoform>
+                <onlink>http://myfwc.com/research/redtide/monitoring/</onlink>
+                <onlink>http://geodata.myfwc.com/datasets/recent-harmful-algal-bloom-hab-events</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>GIS point shapefile of recent sampling locations for the phytoplankton that causes red tide, Karenia brevis. Sampling sites dates of this shapefile cover the calendar year 2016 through the most recently available period. The HAB shapefile is a spatial representation of information gathered in the HAB Historical Database, which provides information on the presence and absence of Karenia brevis.</abstract>
+            <purpose>The purpose for creating the HAB shapefile was to spatially display information for the blooming phytoplankton Karenia brevis in Florida.</purpose>
+            <supplinf>F2384 These data are being used in the formation of the Harmful Algal Bloom (HAB) Historical Database produced by Florida Marine Research Institute.--Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The institute name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The institute name has been changed in references to ongoing research, new research, and contact information.--</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>20150101</begdate>
+                    <enddate>20171231</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>Unknown</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>Continually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-87.428023</westbc>
+                <eastbc>-79.967219</eastbc>
+                <northbc>30.951414</northbc>
+                <southbc>24.349996</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>oceans</themekey>
+                <themekey>biota</themekey>
+                <themekey>environment</themekey>
+            </theme>
+            <theme>
+                <themekt>FMRI Theme</themekt>
+                <themekey>algae</themekey>
+                <themekey>Gymnodinium breve</themekey>
+                <themekey>historical</themekey>
+                <themekey>GIS</themekey>
+                <themekey>harmful algal bloom (these are all plankton and dinoflagellate related items-not red tide related.)</themekey>
+                <themekey>red tide</themekey>
+            </theme>
+            <place>
+                <placekt>FWRI Place</placekt>
+                <placekey>Florida</placekey>
+            </place>
+            <place>
+                <placekt>Florida Counties</placekt>
+                <placekey>Florida</placekey>
+            </place>
+            <place>
+                <placekt>FWC Region</placekt>
+                <placekey>Florida</placekey>
+            </place>
+            <place>
+                <placekt>Water Management Districts</placekt>
+                <placekey>Florida</placekey>
+            </place>
+            <place>
+                <placekt>Florida Waterbodies</placekt>
+            </place>
+            <stratum>
+                <stratkt>FMRI Stratum</stratkt>
+            </stratum>
+        </keywords>
+        <accconst>None. These data are public information. Data from this database may be accessed by contacting the point of contact. Statewide historical red tide sampling data will be available to the public in the form of an Access database, CD ROM and Web site. All data must be verified by Principal Investigator or Group Database Analyst prior to release. It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the data's suitability for other purposes.</accconst>
+        <useconst>It is requested the contributors to this data set and their respective agencies be acknowledged and cited, should these data be used for other projects. Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data. Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such. This is not a survey data set and should not be utilized as such. These data are not to be used for navigation.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>Florida Fish and Wildlife Research Institute</address>
+                    <address>100 Eighth Avenue Southeast</address>
+                    <city>St. Petersburg</city>
+                    <state>FL</state>
+                    <postal>33701-5095</postal>
+                </cntaddr>
+                <cntvoice>727-896-8626</cntvoice>
+                <cntfax>727-823-0166</cntfax>
+                <cntemail>GISLibrarian@MyFWC.com</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>This dataset was created from the HAB historical database.</datacred>
+        <secinfo>
+            <secsys>FWRI-DC</secsys>
+        </secinfo>
+        <native>ESRI ArcGIS 8.3</native>
+    </idinfo>
+    <dataqual>
+        <logic>Attribute data is quality controlled by a "proofing" process. A proofing screen is built into the database and after a record is entered it is reviewed for accuracy when a proofing person looks over the datasheet and verifies the data entry. The record is then saved in the tables as proofed and is not changeable in the main data entry screen. Outliers generated from incorrect latitude or longitude values are discarded.</logic>
+        <complete>Attributes from datasheets that are not included in the database are presence of dead fish, tide information, cloud cover, moon phase, wind direction and speed, flocculance, water and weather conditions, count analyst, countanalysis date, collecting person, current information, wave height, etc. These datasheets varied greatly in specificityof information from the minimum required parameters to detailed cruise and research studies. Due to this diversity,it was decided to incorporate as many entry fields as possible for related information from the datasheet. Selectionof the attributes that are included in the database were based on frequency of the measurement on datasheets,The minimum requirements for generating a record include a K. brevis count (in cells per liter), the date when thewater sample was collected, and a description of where the water sample was taken. Collecting agency andsampling depth are also required to generate a record, but have default values of """"unknown"""" and 0.5 m,respectively.After July 1, 1999 SEAS agency references became DOACS agency references.References to K. brevis being present are represented by a cell count of 1 cell per liter. This was done to removethem from a true negative count analysis.</complete>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Collier County Pollution Control and Prevention Department</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Collier County Pollution Control and Prevention Department</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Commercial Fishermen</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Commercial Fishermen</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Florida State University</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Florida State University</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Memoirs of the Hourglass Cruises, Dinoflagellates</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Memoirs of the Hourglass Cruises, Dinoflagellates</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>National Marine Fisheries Service</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19901025</begdate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>National Marine Fisheries Service</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Florida Department of Health and Rehabilitative Services</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Florida Department of Health and Rehabilitative Services</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Gainsville Offshore Fishing Club</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Gainsville Offshore Fishing Club</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Sarasota County Natural Resources Department</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19901025</begdate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Sarasota County Natural Resources Department</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Private Citizen</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19930701</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Private Citizen</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Southeast Area Monitoring Assessment Program (SEAMAP) Cruises</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19930701</begdate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Southeast Area Monitoring Assessment Program (SEAMAP) Cruises</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Sea Critters</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Sea Critters</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Rookery Bay National Estuarine Research Reserve</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19731101</begdate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>Rookery Bay National Estuarine Research Reserve</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Office of Fisheries Management and Assistance Services</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Office of Fisheries Management and Assistance Services</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>University of Florida</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>University of Florida</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>St. Petersburg Junior College</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>St. Petersburg Junior College</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>The Nature Conservancy Bay Watch</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>The Nature Conservancy Bay Watch</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Solutions to Avoid Red Tide (START)</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Solutions to Avoid Red Tide (START)</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Florida Department of Natural Resources</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Florida Department of Natural Resources</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Florida Department of Natural Resources</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Florida Department of Natural Resources</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Mote Marine Laboratory</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Mote Marine Laboratory</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>NASA Surface Truth Study Cruises</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>NASA Surface Truth Study Cruises</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Memoirs of the Hourglass Cruises, Rationale and Pertinent Data</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Memoirs of the Hourglass Cruises, Rationale and Pertinent Data</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>County Health Departments</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>County Health Departments</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Collier County Environmental Department</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Collier County Environmental Department</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Apalachicola Bay National Research Reserve</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20140101</begdate>
+                            <enddate>20160831</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>Apalachicola Bay National Research Reserve</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>City of Sanibel</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19930701</begdate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>City of Sanibel</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>NOAA/ NMFS/ SEAMAP cruise (1999)</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19901025</begdate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>Unknown</srccurr>
+                </srctime>
+                <srccitea>NOAA/ NMFS/ SEAMAP cruise (1999)</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>University of South Florida</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19901025</begdate>
+                            <enddate>20180703</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>Ground Condition</srccurr>
+                </srctime>
+                <srccitea>University of South Florida</srccitea>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>University of Miami Marine Laboratory Marine Fisheries Research Preliminary Report, Red Tide Studies January to June 1954</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>University of Miami Marine Laboratory Marine Fisheries Research Preliminary Report, Red Tide Studies January to June 1954</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>United States Coast Guard Helicopter Sampling (FMRI)</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>United States Coast Guard Helicopter Sampling (FMRI)</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Hillsborough County Environmental Protection Commission</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Hillsborough County Environmental Protection Commission</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Shellfish Environmental Assessment Section (SEAS)</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Shellfish Environmental Assessment Section (SEAS)</srccitea>
+                <srccontr>Contributed sample collections for cell counts, temperature, salinity and depth measurements</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>In order to geographically represent the sampling results, the historical HAB database was queried for sample data, latitude, longitude, location description, and Karenia brevis count. The query results were exported to a .dbf file and then converted to a shapefile using ArcGIS. Cell count values were reclassified based on categories provided in the Training Manual for the harmful Algal Bloom Database</procdesc>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission - Fish and Wildlife Research Institute)</cntorg>
+                            <cntper>Principal Investigator</cntper>
+                        </cntorgp>
+                        <cntpos>Principal Investigator</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>Fish and Wildlife Research Institute100 Eighth Avenue Southeast</address>
+                            <city>St. Petersburg</city>
+                            <state>FL</state>
+                            <postal>33701-5095</postal>
+                        </cntaddr>
+                        <cntemail>metadata@MyFWC.com</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>GIS_Web.FWC.Recent_HAB_Events</enttypl>
+                <enttypd>Recent Harmful Algal Bloom Events</enttypd>
+                <enttypds>FWC: FWRI</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>PROOF_DATE</attrlabl>
+                <attrdef>Date record inspected</attrdef>
+                <attrdefs>FWC</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Date</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HAB_ID</attrlabl>
+                <attrdef>HAB Sample ID</attrdef>
+                <attrdefs>FWC</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SAMPLE_DEPTH</attrlabl>
+                <attrdef>depth of sample location in meters</attrdef>
+                <attrdefs>FWC</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>double</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LONGITUDE</attrlabl>
+                <attrdef>Longitude of sample location in decimal degrees</attrdef>
+                <attrdefs>FWC</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>double</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Location</attrlabl>
+                <attrdef>Source of the location coordinates as generated by the collecting agency.</attrdef>
+                <attrdefs>Training Manual for the Harmful Algal Bloom Database</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>text</udom>
+                    				
+                </attrdomv>
+                <attrmfrq>Required on every entry</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SAMPLE_DATE</attrlabl>
+                <attrdef>Date the sample was collected</attrdef>
+                <attrdefs>FWC</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Date</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Name</attrlabl>
+                <attrdef>scientific name of algal species</attrdef>
+                <attrdefs>FWC</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LATITUDE</attrlabl>
+                <attrdef>Latitude of sample location in decimal degrees</attrdef>
+                <attrdefs>FWC</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>double</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Count_</attrlabl>
+                <attrdef>Count of algal cells per liter</attrdef>
+                <attrdefs>FWC</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>long integer</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>This dataset contains Karenia brevis sampling information for the state of Florida. This includes sample date, location description, latitude and longitude coordinates, and categorical values of Karenia brevis cell counts.</eaover>
+            <eadetcit>Training Manual for the Harmful Algal Bloom database.</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>100 Eighth Avenue Southeast</address>
+                    <address>Florida Fish and Wildlife Research Institute</address>
+                    <city>St. Petersburg</city>
+                    <state>FL</state>
+                    <postal>33701-5095</postal>
+                </cntaddr>
+                <cntvoice>727-896-8626</cntvoice>
+                <cntfax>727-823-0166</cntfax>
+                <cntemail>GISLibrarian@MyFWC.com</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-Fish and Wildlife Research Institute produced data set; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+        <stdorder>
+            <nondig>n/a</nondig>
+        </stdorder>
+    </distinfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>100 Eighth Avenue Southeast</address>
+                    <address>Florida Fish and Wildlife Research Institute</address>
+                    <city>St. Petersburg</city>
+                    <state>FL</state>
+                    <postal>33701-5095</postal>
+                </cntaddr>
+                <cntvoice>727-896-8626</cntvoice>
+                <cntfax>727-823-0166</cntfax>
+                <cntemail>GISLibrarian@MyFWC.com</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-Fish and Wildlife Research Institute produced data set; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+        <stdorder>
+            <fees>none</fees>
+            <ordering>Send written request to address listed. Maps are in JPEG image format.</ordering>
+            <turnarnd>Approximately ten working days, depending on amount of information requested.</turnarnd>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20180703</metd>
+        <metrd>20180614</metrd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>100 Eighth Avenue Southeast</address>
+                    <address>Florida Fish and Wildlife Research Institute</address>
+                    <city>St. Petersburg</city>
+                    <state>FL</state>
+                    <postal>33701-5095</postal>
+                </cntaddr>
+                <cntvoice>727-896-8626</cntvoice>
+                <cntfax>727-823-0166</cntfax>
+                <cntemail>GISLibrarian@MyFWC.com</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metuc>All data must be credited to FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</metuc>
+        <metsi>
+            <metscs>FWRI-MC</metscs>
+            <metsc>Unclassified</metsc>
+        </metsi>
+    </metainfo>
+</metadata>

@@ -1,4 +1,4 @@
-## Detecting Algal Blooms 
+## Detecting Algal Blooms - Initial Attempts
 ### Problem Statement/Background
 Algae is amazing, it provides much of Earth’s oxygen, it is important in ecosystems, and could provide solutions in clean energy and food systems. However, this project is about Harmful Algal Blooms (HABs), which are large, toxic blooms of algae in the ocean or freshwater, caused by natural circumstances or as a result of human activity (e.g. agricultural fertilizer run-off), and they are responsible for millions of dollars per year in health costs, and damage to mariculture and hospitality industries. 
 
